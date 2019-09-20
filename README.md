@@ -8,11 +8,12 @@
 
 **环境配置教程参见[EnvSetupGuide.md](https://github.com/Sciroccogti/SEURoboCup2019Kidsize/blob/master/EnvSetupGuide.md)**
 
-> ubuntu安装可参照网上教程
+> ubuntu安装可参照网上教程，[官方镜像](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-desktop-amd64.iso)
 >
-> ros安装可参照[官方网站](http://wiki.ros.org/kinetic/Installation/Ubuntu)
->
+> ros安装可参照[官方网站](http://wiki.ros.org/kinetic/Installation/Ubuntu)，
 > ros入门可参照[bilibili古月居](https://www.bilibili.com/video/av59458869?from=search&seid=5767370996297806957)
+>
+> webots[官方下载地址](https://github.com/omichel/webots/releases/download/R2019b/webots_2019b_amd64.deb)（由于近期外网环境处于特殊时期，普通用户下载速度可能受限，如果遇到*技术问题*，请转至[KidsizeQQ群](https://jq.qq.com/?_wv=1027&k=55BwToG)下载）
 
 ## 使用步骤
 
