@@ -6,7 +6,7 @@
 * ros-kinetic-desktop-full
 * webots
 
-环境配置教程参见[EnvSetupGuide.md](https://github.com/Sciroccogti/SEURoboCup2019Kidsize/blob/master/EnvSetupGuide.md)
+**环境配置教程参见[EnvSetupGuide.md](https://github.com/Sciroccogti/SEURoboCup2019Kidsize/blob/master/EnvSetupGuide.md)**
 
 > ubuntu安装可参照网上教程
 >
