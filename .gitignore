@@ -1,6 +1,5 @@
 build/*
 devel/*
 .catkin_workspace
-init.sh
 *.cfg
 src/yoga710/*
