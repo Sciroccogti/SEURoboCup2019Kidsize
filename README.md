@@ -28,6 +28,7 @@
 
     ```Bash
     cd ~/SEURoboCup2019Kidsize
+    chmod +x init.sh
     ./init.sh
     catkin_make
     ```
