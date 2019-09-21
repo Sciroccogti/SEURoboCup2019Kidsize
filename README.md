@@ -38,7 +38,7 @@
 
     ```Bash
     cd ~/SEURoboCup2019/src
-    ./createPkg teamname
+    ./createPkg.sh teamname
     # teamname为自己的队名
     ```
 
