@@ -27,7 +27,7 @@
 2. 初始化
 
     ```Bash
-    cd ~/SEURoboCup2019
+    cd ~/SEURoboCup2019Kidsize
     ./init.sh
     catkin_make
     ```
