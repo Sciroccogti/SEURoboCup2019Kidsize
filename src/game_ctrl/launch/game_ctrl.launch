@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start judge -->
+  <node pkg="game_ctrl" type="game_ctrl" name="gamectrl" args="$(find config)/teams.cfg" output="screen"/>
+  <node pkg="game_ctrl" type="judge" name="judge" output="screen"/>
+</launch>

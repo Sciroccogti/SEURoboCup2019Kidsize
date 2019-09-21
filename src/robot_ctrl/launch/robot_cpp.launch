@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start robot -->
+  <node pkg="robot_ctrl" type="robot_ctrl" name="robot_ctrl" args="robot_ctrl $(find config)/host.cfg" output="screen"/>
+</launch>

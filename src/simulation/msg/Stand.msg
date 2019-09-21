@@ -1,0 +1,2 @@
+bool red
+bool blue

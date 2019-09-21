@@ -1,0 +1,66 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+  basicTimeStep 20
+}
+Viewpoint {
+  orientation 0.013247322611566588 0.9843196044169651 0.17589606250298628 3.084240361391729
+  position -0.6699504313357321 5.717222464503533 -13.304922540541877
+}
+SoccerField {
+  frame1Color 0 0 1
+  frame2Color 1 0 0
+}
+TexturedBackground {
+  texture "noon_sunny_empty"
+}
+# TexturedBackgroundLight {
+#  castShadows FALSE
+#}
+DirectionalLight {
+  ambientIntensity 1
+  direction 5 -0.5 0
+  intensity 2
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction -5 -0.5 0
+  intensity 2
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0 -0.5 4
+  intensity 2
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0 -0.5 -4
+  intensity 2
+}
+DEF Judge Robot {
+  name "judge"
+  controller "<extern>"
+  supervisor TRUE
+}
+DEF Service Robot {
+  name "service"
+}
+DEF RedRobot Maxwell {
+  translation -0.75 0.365 0
+  name "redrobot"
+  controller "<extern>"
+  headColor 1 0 0
+}
+DEF BlueRobot Maxwell {
+  translation 0.75 0.365 3.5
+  rotation 0 0.707107781185531 0.70710578118615 -3.1415923071795864
+  name "bluerobot"
+  controller "<extern>"
+  headColor 0 0 1
+}
+DEF Ball SoccerBall {
+  translation 0 0.07 0
+  radius 0.07
+  mass 0.5
+  linearDamping 0.5
+  angularDamping 0.5
+}
