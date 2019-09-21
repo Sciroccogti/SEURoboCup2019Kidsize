@@ -21,7 +21,7 @@
 
     ```Bash
     cd ~
-    git clone https://gitee.com/robocup/SEURoboCup2019.git
+    git clone https://github.com/Sciroccogti/SEURoboCup2019Kidsize.git
     ```
 
 2. 初始化
