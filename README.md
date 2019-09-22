@@ -43,6 +43,7 @@
     ./createPkg.sh teamname
     # teamname为自己的队名
     ```
+    并在`src/cfg/teams.cfg`中加入 *teamname*
 
 4. 修改自己的代码
 
