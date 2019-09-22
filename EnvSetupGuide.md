@@ -66,6 +66,8 @@ Note:右键开始logo→磁盘管理
 Webots安装颇为简单。在[官方下载地址](https://github.com/omichel/webots/releases/download/R2019b/webots_2019b_amd64.deb)下载好`.deb`格式的安装包后，打开终端，进入下载文件夹，运行以下代码。系统可能会要求您输入您的密码。
 ```Bash
 sudo dpkg -i webots_2019b_amd64.deb
+# 如果出现报错，请运行以下代码：
+sudo apt install -f
 ```
 
 > 由于近期外网环境处于特殊时期，普通用户下载速度可能受限，如果遇到技术问题，请移步[KidsizeQQ群](https://jq.qq.com/?_wv=1027&k=55BwToG)下载。

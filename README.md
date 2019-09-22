@@ -21,13 +21,14 @@
 
     ```Bash
     cd ~
-    git clone https://github.com/Sciroccogti/SEURoboCup2019Kidsize.git
+    git clone https://gitee.com/robocup/SEURoboCup2019.git
     ```
 
 2. 初始化
 
     ```Bash
     cd ~/SEURoboCup2019Kidsize
+    chmod +x init.sh
     ./init.sh
     catkin_make
     ```
@@ -38,6 +39,7 @@
 
     ```Bash
     cd ~/SEURoboCup2019/src
+    chmod +x createPkg.sh
     ./createPkg.sh teamname
     # teamname为自己的队名
     ```
@@ -70,7 +72,7 @@
 
     ```Bash
     roslaunch teamname robot_cpp.launch # run cxx
-    roslaunch teamname robot_py.alunch  # run py
+    roslaunch teamname robot_py.launch  # run py
     # teamname为上面创建包时输入的名称
     # 第一条为运行c++控制程序，第二条为运行python控制程序，选择其中一个
     ```

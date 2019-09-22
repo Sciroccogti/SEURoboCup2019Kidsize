@@ -1,5 +1,0 @@
-build/*
-devel/*
-.catkin_workspace
-*.cfg
-src/yoga710/*
