@@ -27,7 +27,7 @@
 2. 初始化
 
     ```Bash
-    cd ~/SEURoboCup2019Kidsize
+    cd ~/SEURoboCup2019
     chmod +x init.sh
     ./init.sh
     catkin_make
